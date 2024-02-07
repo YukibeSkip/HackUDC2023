@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Entrar_Activity">
 
-<<<<<<< HEAD
+
     <TextView
         android:id="@+id/textView_VerFecha"
         android:layout_width="95dp"
@@ -29,6 +29,5 @@
         app:layout_constraintTop_toBottomOf="@+id/textView_VerFecha"
         app:layout_constraintVertical_bias="0.17000002" />
 
-=======
->>>>>>> origin/main
+
 </androidx.constraintlayout.widget.ConstraintLayout>

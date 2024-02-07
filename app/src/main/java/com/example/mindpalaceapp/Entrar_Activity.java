@@ -2,7 +2,7 @@ package com.example.mindpalaceapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-<<<<<<< HEAD
+
 import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.view.View;
@@ -18,17 +18,10 @@ public class Entrar_Activity extends AppCompatActivity {
     private Button button_VerFecha;
     int dia, mes, anho;
 
-=======
-import android.os.Bundle;
-
-public class Entrar_Activity extends AppCompatActivity {
-
->>>>>>> origin/main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entrar);
-<<<<<<< HEAD
 
         textView_VerFecha = (TextView) findViewById(R.id.textView_VerFecha);
 
@@ -37,7 +30,7 @@ public class Entrar_Activity extends AppCompatActivity {
         VerFecha();
     }
 
-    public void VerFecha(){
+    public void VerFecha() {
         button_VerFecha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,31 +44,27 @@ public class Entrar_Activity extends AppCompatActivity {
                     public void onDateSet(DatePicker datePicker, int anhoSelec, int mesSelec, int diaSelec) {
                         String diaFormat, mesFormat;
 
-                        if(diaSelec < 10){
-                            diaFormat = "0"+String.valueOf(diaSelec);
-                        }else{
+                        if (diaSelec < 10) {
+                            diaFormat = "0" + String.valueOf(diaSelec);
+                        } else {
                             diaFormat = String.valueOf(diaSelec);
                         }
 
-                        int MES = mesSelec+1;
-                        if (mesSelec < 10){
-                            mesFormat = "0"+String.valueOf(MES);
-                        }else{
+                        int MES = mesSelec + 1;
+                        if (mesSelec < 10) {
+                            mesFormat = "0" + String.valueOf(MES);
+                        } else {
                             mesFormat = String.valueOf(MES);
                         }
 
-                        textView_VerFecha.setText(diaFormat+"/"+mesFormat+"/"+anhoSelec);
+                        textView_VerFecha.setText(diaFormat + "/" + mesFormat + "/" + anhoSelec);
 
                     }
                 }
-                        ,anho, mes, dia);
+                        , anho, mes, dia);
 
                 datePickerDialog.show();
             }
         });
     }
-
-=======
-    }
->>>>>>> origin/main
 }
