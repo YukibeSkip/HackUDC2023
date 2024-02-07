@@ -2,6 +2,7 @@ package com.example.mindpalaceapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+<<<<<<< HEAD
 import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.view.View;
@@ -17,10 +18,17 @@ public class Entrar_Activity extends AppCompatActivity {
     private Button button_VerFecha;
     int dia, mes, anho;
 
+=======
+import android.os.Bundle;
+
+public class Entrar_Activity extends AppCompatActivity {
+
+>>>>>>> origin/main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entrar);
+<<<<<<< HEAD
 
         textView_VerFecha = (TextView) findViewById(R.id.textView_VerFecha);
 
@@ -67,4 +75,7 @@ public class Entrar_Activity extends AppCompatActivity {
         });
     }
 
+=======
+    }
+>>>>>>> origin/main
 }
