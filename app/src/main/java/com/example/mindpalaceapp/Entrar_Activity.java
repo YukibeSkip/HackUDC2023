@@ -51,7 +51,7 @@ public class Entrar_Activity extends AppCompatActivity {
                         }
 
                         int MES = mesSelec + 1;
-                        if (mesSelec < 10) {
+                        if (MES < 10) {
                             mesFormat = "0" + String.valueOf(MES);
                         } else {
                             mesFormat = String.valueOf(MES);
