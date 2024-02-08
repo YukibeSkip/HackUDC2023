@@ -21,7 +21,7 @@
             android:id="@+id/space"
             android:layout_width="match_parent"
             android:layout_height="84dp"
-            android:fontFamily="@font/TypeMachine"
+            android:fontFamily="@font/typemachine"
             android:text=""
             android:textAlignment="center"
             android:textSize="15pt" />
@@ -30,7 +30,7 @@
             android:id="@+id/nameApp"
             android:layout_width="match_parent"
             android:layout_height="75dp"
-            android:fontFamily="@font/TypeMachine"
+            android:fontFamily="@font/typemachine"
             android:text="Bienvenido"
             android:textAlignment="center"
             android:textSize="20pt" />
@@ -116,7 +116,7 @@
                 android:layout_width="360dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/canela_pasion"
+                android:backgroundTint="@color/amarilloPollo"
                 android:ems="15"
                 android:text="Enviar" />
         </LinearLayout>

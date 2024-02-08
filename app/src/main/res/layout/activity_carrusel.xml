@@ -44,7 +44,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="40pt"
             android:layout_marginEnd="16dp"
-            android:fontFamily="@font/TypeMachine"
+            android:fontFamily="@font/typemachine"
             android:text="Bienvenido"
             android:textAlignment="center"
             android:textSize="15pt" />
@@ -59,7 +59,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/Palaquin"
+            android:fontFamily="@font/palaquin"
             android:textAlignment="center"
             android:textSize="15dp"
             android:text="Bienvenido a tu palacio. Empecemos por personalizarlo a tu gusto." />
