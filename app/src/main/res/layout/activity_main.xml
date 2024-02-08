@@ -7,6 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -15,26 +17,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:fontFamily="@font/TypeMachine"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/nameApp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:fontFamily="@font/TypeMachine"
+            android:text="Bienvenido"
+            android:textAlignment="center"
+            android:textSize="20pt" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView_Nombre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Nombre" />
-
             <EditText
                 android:id="@+id/editText_Nombre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:ems="10"
                 android:hint="Nombre"
-                android:inputType="text" />
+                android:inputType="text"
+                android:textAlignment="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -42,21 +56,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView_Correo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Correo" />
 
             <EditText
                 android:id="@+id/editText_Correo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
                 android:ems="10"
                 android:hint="Correo"
                 android:inputType="textEmailAddress"
+                android:textAlignment="center"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
         </LinearLayout>
 
@@ -65,21 +74,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView_Contrasenha"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Contraseña" />
 
             <EditText
                 android:id="@+id/editText_Contrasenha"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="Contraseña"
                 android:inputType="textPassword"
+                android:textAlignment="center"
                 tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
@@ -89,35 +93,31 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView_ConComfirm"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Confirmación" />
 
             <EditText
                 android:id="@+id/editText_ConConfirm"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="Confirmación de contraseña"
                 android:inputType="textPassword"
+                android:textAlignment="center"
                 tools:ignore="TouchTargetSizeCheck" />
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="219dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button_Enviar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="360dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
+                android:backgroundTint="@color/canela_pasion"
+                android:ems="15"
                 android:text="Enviar" />
         </LinearLayout>
 
